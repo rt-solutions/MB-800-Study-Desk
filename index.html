@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Open Period — MB-800 study desk</title>
+    <meta
+      name="description"
+      content="Unofficial study desk for Exam MB-800: Microsoft Dynamics 365 Business Central Functional Consultant. Skills measured as of 30 June 2026."
+    />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="stylesheet" href="./styles.css?v=20261003d" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <div class="shell">
+      <aside class="rail" aria-label="Study desk">
+        <a class="brand" href="#/" data-nav>
+          <span class="mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" width="28" height="28">
+              <rect x="3" y="5" width="18" height="22" rx="1.5" fill="#f4efe4" stroke="#1c2430" stroke-width="1.6"/>
+              <path d="M21 7h7v18c0 1.4-1.2 2.4-2.6 2.4H21" fill="#c45c2a" stroke="#1c2430" stroke-width="1.6"/>
+              <path d="M7 11h10M7 15h10M7 19h7" stroke="#1c2430" stroke-width="1.3" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <span>
+            <strong>Open Period</strong>
+            <em>MB-800 study desk</em>
+          </span>
+        </a>
+        <nav class="nav" aria-label="Study order">
+          <a href="#/" data-nav data-route="home"><span class="nav-n">1</span>Desk</a>
+          <a href="#/plan" data-nav data-route="plan"><span class="nav-n">2</span>Study plan</a>
+          <a href="#/notes" data-nav data-route="notes"><span class="nav-n">3</span>Study notes</a>
+          <a href="#/outline" data-nav data-route="outline"><span class="nav-n">4</span>Skills outline</a>
+          <a href="#/posted" data-nav data-route="posted"><span class="nav-n">5</span>Where it posted</a>
+          <a href="#/alike" data-nav data-route="alike"><span class="nav-n">6</span>Look-alikes</a>
+          <a href="#/page" data-nav data-route="page"><span class="nav-n">7</span>Which page</a>
+          <a href="#/cards" data-nav data-route="cards"><span class="nav-n">8</span>Flashcards</a>
+          <a href="#/drill" data-nav data-route="drill"><span class="nav-n">9</span>Practice drill</a>
+          <a href="#/exam" data-nav data-route="exam"><span class="nav-n">10</span>Mock exam</a>
+          <a href="#/links" data-nav data-route="links"><span class="nav-n">11</span>Official links</a>
+        </nav>
+        <label class="search">
+          <span class="sr">Search</span>
+          <input id="q" type="search" placeholder="Search notes, labs, postings…" autocomplete="off" />
+        </label>
+        <div class="rail-progress" id="rail-progress"></div>
+        <p class="rail-note">
+          Unofficial. Mapped to Microsoft’s published skills as of
+          <time datetime="2026-06-30">30 June 2026</time>.
+          Not affiliated with Microsoft.
+        </p>
+      </aside>
+      <main id="main" class="stage"></main>
+    </div>
+    <script src="./content.js"></script>
+    <script src="./labs.js?v=20261003"></script>
+    <script src="./traces.js?v=20261003b"></script>
+    <script src="./pairs.js?v=20261003c"></script>
+    <script src="./fixes.js?v=20261003c"></script>
+    <script src="./app.js?v=20261003d"></script>
+  </body>
+</html>
